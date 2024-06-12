@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Footer from '@/components/footer';
 
 export const metadata = {
-    title: 'Resume - Jay Shaver',
+    title: 'Resume - Andrew Ye',
     icons: {
         icon: '/logo.png',
         // shortcut: '/shortcut-icon.png',
@@ -17,65 +17,73 @@ export const metadata = {
 export default function Resume() {
     const resume = [
         {
-            "company": "Caterpillar",
-            "dates": "May 2023 – Present",
-            "role": "Data Scientist Intern, Front End Intern",
-            "location": "Chicago, IL",
-            "image": "/logos/cat.jpeg",
-            "bullets": [
-                "Devised and executed a proof of concept (POC) leveraging Python, Pandas, AWS, and Snowflake along with clustering techniques (K-Means and Hierarchical Clustering) to produce accurate part recommendations to customers.",
-                "Operated in an Agile environment and created progress presentations communicating to stakeholders.",
-                "Built Angular components and email templates for CAT’s Vision Link app, enhancing user experience & accessibility.",
-                "Constructed a front-end in React and integrated an LLM with an API for a hackathon translation app."
-            ]
-        },
-        {
-            "company": "Dewberry - Michigan Data Science Team",
-            "dates": "Jan 2023 – Present",
-            "role": "Project Lead",
+            "role": "Research Assistant – Data Science",
+            "dates": "Mar 2023 – Present",
+            "company": "Stephen M. Ross School of Business; Business Strategy Unit",
             "location": "Ann Arbor, MI",
-            "image": "/logos/dewberry.jpeg",
+            "image": "/logos/umich-ross.jpeg",
             "bullets": [
-                "Managed 10 people in constructing a model to predict fire spread to increase safety among their products.",
-                "Tested Autoencoders and U-Nets in PyTorch to increase predictive accuracy of the model.",
-                "Deployed our model into Dewberry’s ecosystem so the company can leverage the model and design safer products."
+                "Designed system using React and Amazon AWS to track 5000+ candidates’ applications and researched how corporate purpose affects willingness to apply using OLS regression",
+                "Implemented ETL process using Python, pandas, and NumPy to clean, merge, and aggregate data, resulting in 90% time saved per task, and completion of process 2 months ahead of schedule",
+                "Created datasets of financial performances of 200+ Saudi Arabian firms by reconciling and verifying with original financials, generating a total of 190 variables for 3,000 records to analyze"
             ]
         },
         {
+            "role": "Research Assistant",
+            "dates": "May 2022 – Jul 2023",
+            "company": "College of LSA; American Culture",
+            "location": "Ann Arbor, MI",
+            "image": "/logos/umich-lsa.jpeg",
+            "bullets": [
+                "Cross-referenced multiple sources, studied media narratives, and analyzed politician responses to document 100+ detailed incidents of how AAPI community experienced and combated COVID-19 related harassment",
+                "Maintained database of 13,000 records intended for government agencies, universities, news medias, and general public",
+                "Identified communication inefficiencies and convinced supervisor to adopt a new platform to preserve clarifications of coding for other research assistants"
+            ]
+        },
+        {
+            "role": "Vice President of External Affairs",
+            "dates": "Jan 2022 – May 2024",
             "company": "Michigan Data Science Team",
-            "dates": "Aug 2021 – Present",
-            "role": "Project Lead, Web Designer, Mentor",
             "location": "Ann Arbor, MI",
             "image": "/logos/mdst.png",
             "bullets": [
-                "Led 3 projects of 15 members in building NLP sentiment analysis, wildfire spread prediction, and poker bot, enhancing team members' expertise in data analysis, ML, PyTorch, and Python while providing mentorship to underclassmen.",
-                "Redesigned and implemented the club's website using Figma, React, Next.js, Tailwind CSS, and GitHub Actions for a professional and modern look and easy-to-edit interface, resulting in a 147% increase in traffic.",
-                "Collaborated in 4 other projects such as building a stock prediction model with 52% accuracy in TensorFlow as well as visualizing and analyzing 100 congressional stock portfolios for unfair gains with Tableau, Python, and Pandas."
+                "Launched “Data Science for Everyone” initiative and started a recruiting campaign by coordinating with 6 academic departments; resulted in 150% increase in applications (350 received in total)",
+                "Negotiated with multiple corporations (include 2 F500), securing $1.9k in funding for cloud infrastructure",
+                "Coordinated 5 company events to connect 200+ students to potential data-driven careers in diverse range of industries and encouraged them to engage with emerging technologies"
             ]
         },
         {
-            "company": "Imbe Solutions (Web Design Company)",
-            "dates": "Nov 2018 – Present",
-            "role": "Co-founder, Lead Developer",
-            "location": "St. Paul, MN",
-            "image": "/logos/imbe-solutions.png",
+            "role": "MOOC Data Analysis (Sponsored Project with RapidCanvas)",
+            "company": "Michigan Data Science Team",
+            "image": "/logos/mdst.png",
             "bullets": [
-                "Designed, Developed and Maintained websites for clients such as Claricity Consulting using Adobe XD, Bootstrap and Netlify to increase website engagement and revenue.",
-                "Implemented version control and continuous deployment thought Git and GitHub actions to streamline the development process and cut time by 30%.",
-                "Tracked invoices and managed company financials using Google Sheets to ensure profitability."
+                "Developed a predictive model to forecast Massive Open Online Course students’ dropout rate, achieving 74% accuracy using advanced machine learning models such as XGBoost and Random Forest within scikit-learn",
+                "Processed and analyzed over 280k user activity logs via Google Big Query, utilized clustering techniques to categorize customer profiles",
+                "Presented findings at an open-house expo event to 80 students and faculties from different disciplines"
             ]
         },
         {
-            "company": "Infinite Degrees",
-            "dates": "Oct 2022 – Jan 2023",
-            "role": "Full Stack Intern",
+            "role": "Improve Detroit Dataset Analysis (Personal Project)",
+            "company": "Michigan Data Science Team",
+            "image": "/logos/mdst.png",
+            "bullets": [
+                "Utilized Python and Tableau for analysis over 120k debris-related service requests submitted through the Improve Detroit platform over a decade, exploring correlation with socioeconomic status of different neighborhoods",
+                "Enhanced data reliability and completeness by using the Google Geocoding API for missing data interpolation and applying on-device Natural Language Processing, large LLM, and OpenAI Generative AI API to categorize request types",
+                "Developed regression models to quantify impact of socioeconomic factors on service request patterns, generating insights for urban development and policy formulation"
+            ]
+        }, {
+            "role": "Founding Member & Head of Outreach",
+            "dates": "Jul 2023 – Present",
+            "company": "M-Hub",
+            "image": "/logos/m-hub.png",
             "location": "Ann Arbor, MI",
-            "image": "/logos/infinite-degrees.jpeg",
-            "bullets": [
-                "Executed the development of 3 application features, utilizing Ionic, React, and Tailwind CSS off Figma mockups.",
-                "Interacted with an Azure database, hydrating relevant content to the application and elevating user experience.",
-                "Employed Beautiful Soup for web scraping, extracting ski and snowboard competition results to establish rankings."
-            ]
+        },
+        {
+            "role": "Volunteer",
+            "dates": "Jan 2020 – May 2021",
+            "company": "International Service Corps",
+            "location": "Albuquerque, NM",
+            "image": "/logos/IESC.jpeg",
         }
     ];
 
@@ -99,12 +107,13 @@ export default function Resume() {
                         <Experience data={{
                             "company": "University of Michigan",
                             "dates": "Aug 2020 - May 2024",
-                            "role": "Data Science Major Bachelor of Science in Engineering, Business Minor - 3.912/4.00 GPA",
+                            "role": "Data Science Major Bachelor of Science in Engineering - 3.79/4.00 GPA",
                             "location": "Ann Arbor, MI",
                             "image": "/logos/michigan.png",
 
                         }} ><p>
-                                <span className="font-bold">Coursework:</span> Algorithms & Data Structures, Computer Organization, Conversational AI, Database Management Systems, Linear Regression, Data Mining, Basic Probability, Agent Based Modeling, Machine Learning, Mathematics in Finance, Web Systems
+                                <span className="font-bold">Coursework:</span> Game Theory, Applied Regression, Conversational AI, Intro Machine Learning, Data Structures & Algorithms, Intro
+                                Computer Security, Business Strategy, Micro & Macro Economics
                             </p></Experience>
                     </div>
                     <div className='py-2'>

@@ -6,8 +6,19 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ], daisyui: {
-    themes: ["dark"
-      , "light"],
+    themes: [
+      {
+        light: {
+          ...require("daisyui/src/theming/themes")["light"],
+          "base-100": "#cbd5e1",
+        },
+      }, {
+        dark: {
+          ...require("daisyui/src/theming/themes")["dark"],
+          "base-100": "#334155",
+        },
+      },
+    ],
   },
   theme: {
     extend: {

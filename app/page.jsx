@@ -8,7 +8,7 @@ import ProjectSection from '@/components/projectSection';
 import { getProjectsData } from "@/lib/projects"
 
 export const metadata = {
-  title: 'Jay Shaver',
+  title: 'Andrew Ye',
   icons: {
     icon: '/logo.png',
     // shortcut: '/shortcut-icon.png',
@@ -21,39 +21,29 @@ export const metadata = {
 }
 
 export default async function Home() {
-  const projectsData = await getProjectsData();
   return (
     <div>
       <Hero />
-      <section className='py-10 bg-gray-200 dark:bg-gray-800'>
-        <div className='flex flex-col items-center text-center gap-4'>
-          <h2 className='text-3xl font-bold'>Some of My Projects</h2>
-          <Button text="View All My Projects 👨‍💻" href='/projects' />
-        </div>
+      <section className='py-10 bg-slate-300 dark:bg-slate-700'>
 
-
-        {
-          projectsData.slice(0, 3).map((projectData, index) => (<ProjectSection key={projectData.name} data={projectData} left={index % 2} />))
-        }
-      </section>
-      <section className='py-10 bg-gradient-to-t from-slate-300 dark:from-slate-700 to-gray-200 dark:to-gray-800'>
-
-        <div className='container mx-auto px-2 flex items-center content-between flex-col md:flex-row gap-4'>
+        <div className='container mx-auto px-2 flex items-center content-between flex-col lg:flex-row gap-4'>
           <Image
-            className="rounded h-[400px] w-auto object-cover md:mr-auto "
+            className="rounded h-[400px] w-auto object-cover lg:mr-auto "
             width={500}
             height={500}
-            src="/Snowboarding.jpg"
-            alt="Me, Jay Shaver"
+            src="/andrew_ye.jpeg"
+            alt="Andrew Ye"
           />
-          <div className='md:w-2/3 lg:w-1/2'>
+          <div className='lg:w-1/2'>
             <h2 className='text-3xl font-bold mb-2'>A little more about me</h2>
-            <p className='mb-2'>I am a Senior at the University of Michigan and working part time for Caterpillar. I have worked on projects such as creating websites for clients, sentiment analysis, customer segmentation, product recommendation, voice chat bot for calorie tracking and Reddit storytime TikTok video generator.</p>
-            <p className='mb-4'>I love watching sports especially F1 🏎️ and Hockey 🏒 - Go Oilers. I run analysis on F1 race performances and create visualizations for different driver metrics. I also enjoy snowboarding and am a member of the Michigan Snowboarding Club.</p>
+            <p className='mb-2'>I graduated from the University of Michigan and am working as a research assistant for Ross School of Business. I have multiple years of experience in academia and integrating data science tools to empower large scale experiments / big data analysis.</p>
+            <p className="mb-2">I am passionate about data science because it allows me to break down complex and ambiguous problems into rational, manageable pieces. Through this process, I can uncover the big picture from a collection of details, providing more certainty and quantitative justification to our world. I hope to use data science to make a meaningful impact on those who need it most.</p>
+            <p className='mb-4'>I am an avid hiker and traveler. I've been to 30 different US states and 10 national parks - my favorite hike is Angels Landing. I also enjoy going to Michigan Football games - Go Blue!</p>
             <Button text="View My Resume 📄" href='/resume' />
           </div>
         </div>
       </section>
+
       <Footer />
 
     </div>
