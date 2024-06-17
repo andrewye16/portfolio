@@ -107,7 +107,7 @@ export default function Resume() {
                         <Experience data={{
                             "company": "University of Michigan",
                             "dates": "Aug 2020 - May 2024",
-                            "role": "Data Science Major Bachelor of Science in Engineering - 3.79/4.00 GPA",
+                            "role": "Data Science Major Bachelor of Science - 3.79/4.00 GPA",
                             "location": "Ann Arbor, MI",
                             "image": "/logos/michigan.png",
 
