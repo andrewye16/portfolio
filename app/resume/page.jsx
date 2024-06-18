@@ -61,29 +61,29 @@ export default function Resume() {
                 "Processed and analyzed over 280k user activity logs via Google Big Query, utilized clustering techniques to categorize customer profiles",
                 "Presented findings at an open-house expo event to 80 students and faculties from different disciplines"
             ]
-        },
-        {
-            "role": "Improve Detroit Dataset Analysis (Personal Project)",
-            "company": "Michigan Data Science Team",
-            "image": "/logos/mdst.png",
-            "bullets": [
-                "Utilized Python and Tableau for analysis over 120k debris-related service requests submitted through the Improve Detroit platform over a decade, exploring correlation with socioeconomic status of different neighborhoods",
-                "Enhanced data reliability and completeness by using the Google Geocoding API for missing data interpolation and applying on-device Natural Language Processing, large LLM, and OpenAI Generative AI API to categorize request types",
-                "Developed regression models to quantify impact of socioeconomic factors on service request patterns, generating insights for urban development and policy formulation"
-            ]
-        }, {
-            "role": "Founding Member & Head of Outreach",
-            "dates": "Jul 2023 – Present",
-            "company": "M-Hub",
-            "image": "/logos/m-hub.png",
-            "location": "Ann Arbor, MI",
-        },
-        {
-            "role": "Volunteer",
-            "dates": "Jan 2020 – May 2021",
-            "company": "International Service Corps",
-            "location": "Albuquerque, NM",
-            "image": "/logos/IESC.jpeg",
+        // },
+        // {
+        //     "role": "Improve Detroit Dataset Analysis (Personal Project)",
+        //     "company": "Michigan Data Science Team",
+        //     "image": "/logos/mdst.png",
+        //     "bullets": [
+        //         "Utilized Python and Tableau for analysis over 120k debris-related service requests submitted through the Improve Detroit platform over a decade, exploring correlation with socioeconomic status of different neighborhoods",
+        //         "Enhanced data reliability and completeness by using the Google Geocoding API for missing data interpolation and applying on-device Natural Language Processing, large LLM, and OpenAI Generative AI API to categorize request types",
+        //         "Developed regression models to quantify impact of socioeconomic factors on service request patterns, generating insights for urban development and policy formulation"
+        //     ]
+        // }, {
+        //     "role": "Founding Member & Head of Outreach",
+        //     "dates": "Jul 2023 – Present",
+        //     "company": "M-Hub",
+        //     "image": "/logos/m-hub.png",
+        //     "location": "Ann Arbor, MI",
+        // },
+        // {
+        //     "role": "Volunteer",
+        //     "dates": "Jan 2020 – May 2021",
+        //     "company": "International Service Corps",
+        //     "location": "Albuquerque, NM",
+        //     "image": "/logos/IESC.jpeg",
         }
     ];
 
