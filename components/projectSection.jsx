@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Icon from './Icon';
+import Icon from './icon';
 
 export default function ProjectSection({ data }) {
     if (!Array.isArray(data)) {
