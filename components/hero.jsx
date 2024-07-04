@@ -12,7 +12,7 @@ export default function Hero() {
             </span>
           </h1>
           <p className="mt-2">
-            University of Michigan alumni 〽️ passionate about Data Science, Social Science, and Consulting.
+          Data Science & Engineering | UMich Ross Research Assistant
           </p>
           <div className="flex justify-start gap-5 pt-2 flex-wrap">
 
@@ -21,6 +21,12 @@ export default function Hero() {
               href="/resume"
             >
              View My Resume
+            </Link>
+            <Link
+              className="border-sky-600 border-4 p-4 rounded hover:-translate-y-1 drop-shadow-md"
+              href="https://drive.google.com/file/d/1ICZUJ41CqQkDyAioV2dPQIp_K8br6vhJ/view?usp=sharing"
+            >
+             Download PDF
             </Link>
           </div>
         </div>
