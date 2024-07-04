@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Claricity Consulting",
+        "link": "https://claricity.consulting/",
+        "description": "Created a modern and responsive single page website for Claricity Consulting using Bootstrap, JavaScript, CSS and HTML. Also set up company email and website hosting.",
+        "desktopImage": "/headshot.jpeg"
+    },
+    {
+        "name": "Michigan Data Science Team",
+        "link": "https://mdst.club",
+        "description": "This work was done for the Michigan Data Science Team - MDST, a club at the University of Michigan. Designed a mockup in Figma. Then implemented website features using NextJS (React Framework) and Tailwind. The website was designed to be edited easily and almost all text, images and other assets are configurable.",
+        "desktopImage": "/headshot.jpeg"
+    },
+    {
+        "name": "In2ition Research, Inc.",
+        "link": "https://in2itioninc.com",
+        "description": "Created a mockup in Adobe Xd. Then implemented it with basic HTML and JavaScript, leveraging Bootstrap and CSS for styling.",
+        "desktopImage": "/headshot.jpeg"
+    },
+    {
+        "name": "Pocket Planes Calculator",
+        "link": "https://jmshaver.github.io/Pocket-Planes/",
+        "description": "I love playing Pocket Planes on my phone and found that current calculators didn't work well on mobile devices because they were not user friendly or accessible. Made improvements such as styling searchable drop down and more accessible layout.",
+        "desktopImage": "/headshot.jpeg"
+    },
+    {
+        "name": "M-Hub",
+        "link": "https://m-hub.club",
+        "description": "Created a single page website based on MDST website (see above) for The Business Research Club at Michigan, another club at the University of Michigan.",
+        "desktopImage": "/headshot.jpeg"
+    },
+    {
+        "name": "Headquarters Economy",
+        "link": "https://headquarterseconomy.com/",
+        "description": "Created a responsive website only using base HTML, CSS and JavaScript to help promote a new book launch. Also created HTML email signature to advertise the book.",
+        "desktopImage": "/headshot.jpeg"
+    }
+]
