@@ -20,7 +20,7 @@ export default function Hero() {
               className="border-sky-600 border-4 p-4 rounded hover:-translate-y-1 drop-shadow-md"
               href="/resume"
             >
-              My Resume 📄
+             View My Resume
             </Link>
           </div>
         </div>
