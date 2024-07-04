@@ -2,25 +2,29 @@
     {
         "name": "Improve Detroit Analysis",
         "link": "https://github.com/andrewye16/improve_detroit_ses_analysis",
-        "description": "Analyzed the impact of socioeconomic status on 'Improve Detroit' requests across neighborhoods. Key findings include the strong correlation between new vacant properties and request volume, and the negative correlation of higher median earnings and home values with requests. Developed a predictive model with an Adjusted R^2 of 0.613 using median earnings and new vacant properties.",
+        "description": "Analyzed the impact of socioeconomic status on 'Improve Detroit' requests across neighborhoods. Key findings include the strong correlation between new vacant properties and request volume, and the negative correlation of higher median earnings and home values with requests. Developed a predictive model with an Adjusted R^2 of 0.613 using median earnings and new vacant properties.\n\nData Visualization, Natural Language Processing, Regression Analysis, Supervisied Machine Learning, Data Modeling, Data Warehousing, Data Transformation, Data Cleaning",
+        "techStack": ["Python", "Tableau, Seaborn, matplotlib","Scikit-learn, statsmodels, Scipy", "Pandas, Numpy", "NLTK, GPT"],
         "desktopImage": "/detroit.png"
     },
     {
         "name": "Predict Consumer Sentiment Index",
         "link": "https://drive.google.com/file/d/1-W1AuR5AvYYsUmz4zIcOHWpVUHY8DNOq/view",
-        "description": "This project aims to predict the University of Michigan Consumer Sentiment Index (CSI) using Google search trends and economic indicators. The project utilized various machine learning models, including ARIMA, VAR, and MIDAS, to forecast CSI.\n\nKey findings include:\n- The VAR model achieved high accuracy with an R^2 of 0.973 and Residual Standard Error (RSE) of 2.08 using six predictors: previous CSI values, employment, mortgage rates, and total vehicle sales.\n- The MIDAS model, designed for weekly predictions, performed less effectively than the VAR model for monthly data.\n- Significant predictors were Google Trends data on employment, mortgage rates, and total vehicle sales.\n\nThe project addresses ethical considerations, such as sampling bias and the consequences of inaccurate predictions. Explore the full analysis and results in the detailed report.",
+        "description": "Utilized Google search trends and economic indicators to forecast CSI using machine learning models. Key findings include the VAR model achieving an R² of 0.973 and RSE of 2.08 with significant predictors: previous CSI values, employment, mortgage rates, and total vehicle sales. Addressed ethical considerations such as sampling bias and prediction consequences.\n\nTime Series Analysis, Supervised Machine Learning, Regularization, Data Visualization",
+        "techStack": ["R, Python, SQL, C++, Excel", "Pandas", "ggPlot", "Google Trends API"],
         "desktopImage": "/csi.png"
     },
     {
         "name": "Wine Clustering",
-        "link": "https://drive.google.com/file/d/1_Yi7gVaY_RbeQqRDIG6Ku6mqkQlUjI4t/view?usp=sharing",
-        "description": "This project aimed to cluster wine variants based on their chemical properties using an adapted wine dataset from UCI. The dataset contained chemical analysis results of wines from three different cultivars grown in the same region of Italy. The goal was to develop a model that could accurately cluster the wines and identify the most predictive features.\n\nKey steps included:\n- Performing Exploratory Data Analysis (EDA) on 178 wine samples described by 12 chemical properties, such as alcohol content, malic acid, magnesium, and proline.\n- Standardizing the data using StandardScaler() and Whiten() functions.\n- Applying k-means and hierarchical clustering algorithms, with both methods determining the optimal number of clusters to be 3.\n- Visualizing the clusters using PCA and evaluating the models using silhouette scores.\n\nThe k-means algorithm achieved a silhouette score of 0.32, indicating a reasonable separation between clusters. The project demonstrated the effectiveness of clustering methods in identifying distinct groups within the dataset.",
+        "link": "https://github.com/yourusername/wine_clustering",
+        "description": "Clustered wine variants based on chemical properties using an adapted UCI dataset. Key steps included EDA on 178 wine samples, standardizing data, and applying k-means and hierarchical clustering. Both methods identified 3 optimal clusters. Visualized clusters with PCA and evaluated models using silhouette scores, achieving 0.32 with k-means.\n\nUnsupervised Machine Learning, Data Transformation, Data Visualization",
+        "techStack": ["Python", "Pandas, matplotlib, Seaborn", "Scikit-learn: k-means, Hierarchical Clustering, PCA, StandardScaler, Whiten"],
         "desktopImage": "/wine.png"
     },
     {
-        "name": "MOOC Analysis",
-        "link": "https://drive.google.com/file/d/1CTQoSqIDdC6iE_1v8IffvSL-2yNtSey8/view?usp=sharing",
-        "description": "This project analyzed Massive Open Online Courses (MOOCs) to predict student dropout rates. This project utilized data on user watch time, course completion status, rewatch percentage, and sittings per video.\n\nKey steps included:\n- Performing exploratory data analysis (EDA) to understand the dataset.\n- Using machine learning algorithms like XGBoost, Random Forest, AdaBoost, Gradient Boost, and K-means to predict dropout behavior.\n- Implementing tools like Rapid Canvas, Tableau, Google Big Query, and Sklearn for data processing and model building.\n\nThe analysis aimed to identify patterns and factors influencing student retention in online courses, providing insights to improve course design and engagement strategies.",
-        "desktopImage": "/csi.png"
+        "name": "MOOCs Dropout Prediction",
+        "link": "https://github.com/yourusername/moocs_dropout_prediction",
+        "description": "Analyzed MOOCs data to predict student dropout rates using user watch time, course completion status, rewatch percentage, and sittings per video. Key steps included EDA, and applying machine learning algorithms like XGBoost, Random Forest, AdaBoost, Gradient Boost, and K-means. Utilized tools like Tableau, Google Big Query, and Sklearn for data processing and model building, identifying patterns to improve student retention.\n\nSupervised Machine Learning, Cloud Computing, Data Warehousing, Data Modeling, Data Cleaning, Data Visualization", 
+         "techStack": ["Python, SQL: Google Big Query", "Tableau", "Pandas, NumPy", "Scikit-learn: XGBoost, Random Forest, AdaBoost, Gradient Boost"],
+        "desktopImage": "/wine.png"
     }
 ]

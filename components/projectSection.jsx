@@ -3,15 +3,25 @@ import Link from 'next/link';
 import Icon from './icon';
 
 export default function ProjectSection({ data }) {
-    if (!Array.isArray(data)) {
-        console.error("Data passed to ProjectSection is not an array");
-        return null;
-    }
 
     const renderDescription = (description) => {
         return description.split('\n').map((paragraph, index) => (
             <p key={index} className="mb-2">{paragraph}</p>
         ));
+    };
+
+    const renderTechStack = (techStack) => {
+        if (!techStack || techStack.length === 0) return null;
+        return (
+            <div className="mt-4">
+                <h3 className="text-xl font-bold">Tech Stack</h3>
+                <ul className="list-disc list-inside">
+                    {techStack.map((tech, index) => (
+                        <li key={index}>{tech}</li>
+                    ))}
+                </ul>
+            </div>
+        );
     };
 
     return (
@@ -33,6 +43,7 @@ export default function ProjectSection({ data }) {
                                     </div>
                                 </div>
                                 <div>{renderDescription(project.description)}</div>
+                                {renderTechStack(project.techStack)}
                             </div>
                         </div>
                     </div>
