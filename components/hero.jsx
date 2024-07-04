@@ -20,13 +20,13 @@ export default function Hero() {
               className="border-sky-600 border-4 p-4 rounded hover:-translate-y-1 drop-shadow-md"
               href="/resume"
             >
-             View My Resume
+             My Resume
             </Link>
             <Link
               className="border-sky-600 border-4 p-4 rounded hover:-translate-y-1 drop-shadow-md"
-              href="https://drive.google.com/file/d/1ICZUJ41CqQkDyAioV2dPQIp_K8br6vhJ/view?usp=sharing"
+              href="/projects"
             >
-             Download PDF
+             My Projects
             </Link>
           </div>
         </div>
