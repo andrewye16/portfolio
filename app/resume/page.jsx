@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Footer from '@/components/footer';
+import Button from '@/components/button';
 
 export const metadata = {
     title: 'Resume - Andrew Ye',
@@ -99,6 +100,9 @@ export default function Resume() {
                     <h1 className='text-5xl font-extrabold text-center'>
                         My Resume
                     </h1>
+                    <div className="py-4 text-center">
+                        <Button text="Download PDF" href="https://drive.google.com/file/d/1ICZUJ41CqQkDyAioV2dPQIp_K8br6vhJ/view?usp=sharing" />
+                    </div>
                 </div>
             </div>
             <section className='bg-gradient-to-t from-slate-300 dark:from-slate-700 to-gray-200 dark:to-gray-800'>
@@ -114,11 +118,12 @@ export default function Resume() {
                             "role": "Bachelor of Science in Data Science, University of Michigan",
                             "location": "Ann Arbor, MI",
                             "image": "/logos/michigan.jpeg",
-
-                        }} ><p>
+                        }} >
+                            <p>
                                 <span className="font-bold">Coursework:</span> Game Theory, Applied Regression, Conversational AI, Intro Machine Learning, Data Structures & Algorithms, Intro
                                 Computer Security, Business Strategy, Micro & Macro Economics
-                            </p></Experience>
+                            </p>
+                        </Experience>
                     </div>
                     <div className='py-2'>
                         <h2 className="text-3xl font-bold">
@@ -130,7 +135,6 @@ export default function Resume() {
                 </div>
             </section>
             <Footer />
-
         </div>
     );
 }
