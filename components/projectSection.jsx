@@ -11,21 +11,21 @@ export default function ProjectSection({ data }) {
     return (
         <section className="container mx-auto px-2 py-10 relative">
             {data.map((project, index) => (
-                <div key={index} className="flex items-center mb-10">
+                <div key={index} className="mb-10">
                     <div className="bg-slate-400 dark:bg-slate-600 drop-shadow p-4 rounded-lg w-full">
-                        <div className='flex text-3xl bold justify-between items-center mb-2'>
-                            <h2 className=''>{project.name}</h2>
-                            <div className='flex gap-2'>
-                                {project.link && <Link className='' href={project.link} target='_blank'>
-                                    <Icon name="open" />
-                                </Link>}
-                            </div>
-                        </div>
-                        <div className="flex">
-                            <div className="w-1/2 p-4">
+                        <div className="flex flex-col md:flex-row items-center md:items-start">
+                            <div className="w-full md:w-1/2 p-4">
                                 <ProjectImage image={project.desktopImage} name={project.name} />
                             </div>
-                            <div className="w-1/2 p-4">
+                            <div className="w-full md:w-1/2 p-4">
+                                <div className='flex text-3xl bold justify-between items-center mb-2'>
+                                    <h2 className=''>{project.name}</h2>
+                                    <div className='flex gap-2'>
+                                        {project.link && <Link className='' href={project.link} target='_blank'>
+                                            <Icon name="open" />
+                                        </Link>}
+                                    </div>
+                                </div>
                                 <p>{project.description}</p>
                             </div>
                         </div>
