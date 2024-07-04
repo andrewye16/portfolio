@@ -23,9 +23,13 @@ export default function Resume() {
             "location": "Ann Arbor, MI",
             "image": "/logos/umich-ross.jpeg",
             "bullets": [
-                "Designed system using React and Amazon AWS to track 5000+ candidates’ applications and researched how corporate purpose affects willingness to apply using OLS regression",
-                "Implemented ETL process using Python, pandas, and NumPy to clean, merge, and aggregate data, resulting in 90% time saved per task, and completion of process 2 months ahead of schedule",
-                "Created datasets of financial performances of 200+ Saudi Arabian firms by reconciling and verifying with original financials, generating a total of 190 variables for 3,000 records to analyze"
+                "Led data engineering and analytics workstream on research project to determine impact of company mission on candidate attraction",
+                "Developed a custom script to efficiently download and organize data from 5,000 candidate resumes, streamlining the experimental data intake process",
+                "Engineered an applicant tracking system and server to manage candidate applications and track communication history, enhancing operational transparency",
+                "Conducted an in-depth analysis of demographic factors (race, ethnicity, gender) and their impact on candidate perception of company attractiveness, providing actionable insights for diversity and inclusion initiatives",
+                "Developed new data intake strategy and operating model to accelerate project timelines for research project by 90%",
+                "Analyzed and aggregated Saudi Arabian financial statements, designing an algorithm to automate data extraction, comparison, and accuracy checks, reducing required manpower",
+                "Developed and implemented a new standard operating procedure for the team to increase efficiency of data management, including data collection, cleanup, and analysis; process scaled to entire research group"
             ]
         },
         {
@@ -36,8 +40,8 @@ export default function Resume() {
             "image": "/logos/umich-lsa.jpeg",
             "bullets": [
                 "Cross-referenced multiple sources, studied media narratives, and analyzed politician responses to document 100+ detailed incidents of how AAPI community experienced and combated COVID-19 related harassment",
-                "Maintained database of 13,000 records intended for government agencies, universities, news medias, and general public",
-                "Identified communication inefficiencies and convinced supervisor to adopt a new platform to preserve clarifications of coding for other research assistants"
+                "Reviewed and analyzed articles to identify relevant hate crime information for research scope, managing database cleanliness by deduplicating and updating entries to ensure accuracy and consistency over time",
+                "Identified communication inefficiencies and convinced supervisor to adopt Slack instead of email to preserve information continuity for other research assistants across the lab"
             ]
         },
         {
@@ -93,7 +97,7 @@ export default function Resume() {
             <div className='bg-gradient-to-b from-slate-300 dark:from-slate-700 to-gray-200 dark:to-gray-800'>
                 <div className="container mx-auto px-2 py-32">
                     <h1 className='text-5xl font-extrabold text-center'>
-                        My Resume 📄
+                        My Resume
                     </h1>
                 </div>
             </div>
@@ -101,7 +105,7 @@ export default function Resume() {
                 <div className="container mx-auto py-4 px-2">
                     <div className='py-2'>
                         <h2 className="text-3xl font-bold">
-                            EDUCATION 👨‍🎓
+                            EDUCATION
                         </h2>
                         <div className="divider my-0"></div>
                         <Experience data={{
@@ -118,7 +122,7 @@ export default function Resume() {
                     </div>
                     <div className='py-2'>
                         <h2 className="text-3xl font-bold">
-                            EXPERIENCE 👷‍♂️
+                            EXPERIENCE
                         </h2>
                         <div className="divider my-0"></div>
                         {resume.map((experience) => <Experience key={experience.company} data={experience} />)}

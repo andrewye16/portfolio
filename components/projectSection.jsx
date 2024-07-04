@@ -1,12 +1,18 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Icon from './icon';
+import Icon from './Icon';
 
 export default function ProjectSection({ data }) {
     if (!Array.isArray(data)) {
         console.error("Data passed to ProjectSection is not an array");
         return null;
     }
+
+    const renderDescription = (description) => {
+        return description.split('\n').map((paragraph, index) => (
+            <p key={index} className="mb-2">{paragraph}</p>
+        ));
+    };
 
     return (
         <section className="container mx-auto px-2 py-10 relative">
@@ -26,7 +32,7 @@ export default function ProjectSection({ data }) {
                                         </Link>}
                                     </div>
                                 </div>
-                                <p>{project.description}</p>
+                                <div>{renderDescription(project.description)}</div>
                             </div>
                         </div>
                     </div>
