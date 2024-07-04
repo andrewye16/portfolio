@@ -109,7 +109,7 @@ export default function Resume() {
                         </h2>
                         <div className="divider my-0"></div>
                         <Experience data={{
-                            "company": "GPA:3.79/4.00, James B. Angell Scholar",
+                            "company": "GPA: 3.79/4.00, James B. Angell Scholar",
                             "dates": "Aug 2021 - May 2024",
                             "role": "Bachelor of Science in Data Science, University of Michigan",
                             "location": "Ann Arbor, MI",
