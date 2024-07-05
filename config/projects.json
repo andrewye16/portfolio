@@ -14,11 +14,11 @@
         "desktopImage": "/csi.png"
     },
     {
-        "name": "Wine Clustering",
-        "link": "https://drive.google.com/file/d/1_Yi7gVaY_RbeQqRDIG6Ku6mqkQlUjI4t/view?usp=sharing",
-        "description": "Clustered wine variants based on chemical properties using an adapted UCI dataset. Key steps included EDA on 178 wine samples, standardizing data, and applying k-means and hierarchical clustering. Both methods identified 3 optimal clusters. Visualized clusters with PCA and evaluated models using silhouette scores, achieving 0.32 with k-means.\n\nUnsupervised Machine Learning, Data Transformation, Data Visualization",
-        "techStack": ["Python", "Pandas, matplotlib, Seaborn", "Scikit-learn: k-means, Hierarchical Clustering, PCA, StandardScaler, Whiten"],
-        "desktopImage": "/wine.png"
+        "name": "Customer Segmentation",
+        "link": "https://drive.google.com/file/d/1Y1d3vzekurmb82rxNLZGTSOlCa61Lcco/view?usp=sharing",
+        "description": "Segmented customers using clustering techniques on a toy car sales dataset from Kaggle. Key steps included extensive data cleaning, normalizing geographical variables, and applying K-means clustering. Identified five distinct customer segments and visualized clusters using PCA. Clusters were described based on metrics like order quantity, price per unit, demand, and purchase timing.\n\nCustomer Segmentation, Data Cleaning, Data Normalization, Clustering, Data Visualization",
+        "techStack": ["Python", "Pandas, matplotlib, Seaborn", "Scikit-learn: K-means Clustering, PCA, StandardScaler"],
+        "desktopImage": "/customer_segmentation.png"
     },
     {
         "name": "MOOC Dropout Prediction",
