@@ -18,7 +18,7 @@
         "link": "https://drive.google.com/file/d/1Y1d3vzekurmb82rxNLZGTSOlCa61Lcco/view?usp=sharing",
         "description": "Segmented customers using clustering techniques on a toy car sales dataset from Kaggle. Key steps included extensive data cleaning, normalizing geographical variables, and applying K-means clustering. Identified five distinct customer segments and visualized clusters using PCA. Clusters were described based on metrics like order quantity, price per unit, demand, and purchase timing.\n\nCustomer Segmentation, Data Cleaning, Data Normalization, Clustering, Data Visualization",
         "techStack": ["Python", "Pandas, matplotlib, Seaborn", "Scikit-learn: K-means Clustering, PCA, StandardScaler"],
-        "desktopImage": "/customer_segmentation.png"
+        "desktopImage": "/wine.png"
     },
     {
         "name": "MOOC Dropout Prediction",
