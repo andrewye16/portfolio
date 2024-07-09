@@ -35,7 +35,7 @@ export default async function Home() {
           />
           <div className='lg:w-1/2'>
             <h2 className='text-3xl font-bold mb-2'>A little more about me</h2>
-            <p className='mb-2'>I'm a recent University of Michigan grad, where I studied Data Science. I have a background in data science & engineering, software development, and quantitative research. I have honed my skills in data engineering, statistical analysis, and project management through diverse research projects and leadership roles on campus.</p>
+            <p className='mb-2'>I&apos;m a recent University of Michigan grad, where I studied Data Science. I have a background in data science & engineering, software development, and quantitative research. I have honed my skills in data engineering, statistical analysis, and project management through diverse research projects and leadership roles on campus.</p>
 
             <p className="mb-2">Currently, I am a Research Assistant at the Stephen M. Ross School of Business, where I lead data analytics efforts to explore the impact that corporate mission and values has on attracting candidates.</p>
             
