@@ -12,7 +12,7 @@ export default function Hero() {
             </span>
           </h1>
           <p className="mt-2">
-          Data Science & Engineering | UMich Ross Research Assistant
+          University of Michigan graduate intersted in using data to solve problems and make informed decisions. Research Assistant at the Ross School of Business.
           </p>
           <div className="flex justify-start gap-5 pt-2 flex-wrap">
 

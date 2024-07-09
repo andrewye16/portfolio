@@ -2,28 +2,32 @@
     {
         "name": "Improve Detroit Analysis",
         "link": "https://github.com/andrewye16/improve_detroit_ses_analysis",
-        "description": "Analyzed the impact of socioeconomic status on 'Improve Detroit' requests across neighborhoods. Key findings include the strong correlation between new vacant properties and request volume, and the negative correlation of higher median earnings and home values with requests. Developed a predictive model with an Adjusted R^2 of 0.613 using median earnings and new vacant properties.\n\nData Visualization, Natural Language Processing, Regression Analysis, Supervisied Machine Learning, Data Modeling, Data Warehousing, Data Transformation, Data Cleaning",
+        "description": "Analyzed the impact of socioeconomic status on 'Improve Detroit' requests across neighborhoods. Key findings include the strong correlation between new vacant properties and request volume, and the negative correlation of higher median earnings and home values with requests. Developed a predictive model with an Adjusted R^2 of 0.613 using median earnings and new vacant properties.",
+        "keywords": "Data Visualization, Natural Language Processing, Regression Analysis, Supervisied Machine Learning, Data Modeling, Data Warehousing, Data Transformation, Data Cleaning",
         "techStack": ["Python", "Tableau, Seaborn, matplotlib","Scikit-learn, statsmodels, Scipy", "Pandas, Numpy", "NLTK, GPT"],
         "desktopImage": "/detroit.png"
     },
     {
         "name": "Predict Consumer Sentiment Index",
         "link": "https://drive.google.com/file/d/1-W1AuR5AvYYsUmz4zIcOHWpVUHY8DNOq/view",
-        "description": "Utilized Google search trends and economic indicators to forecast CSI using machine learning models. Key findings include the VAR model achieving an R² of 0.973 and RSE of 2.08 with significant predictors: previous CSI values, employment, mortgage rates, and total vehicle sales. Addressed ethical considerations such as sampling bias and prediction consequences.\n\nTime Series Analysis, Supervised Machine Learning, Regularization, Data Visualization",
+        "description": "Utilized Google search trends and economic indicators to forecast CSI using machine learning models. Key findings include the VAR model achieving an R² of 0.973 and RSE of 2.08 with significant predictors: previous CSI values, employment, mortgage rates, and total vehicle sales. Addressed ethical considerations such as sampling bias and prediction consequences.",
+        "keywords": "Time Series Analysis, Supervised Machine Learning, Regularization, Data Visualization",
         "techStack": ["R, Python, SQL, C++, Excel", "Pandas", "ggPlot", "Google Trends API"],
         "desktopImage": "/csi.png"
     },
     {
         "name": "Customer Segmentation",
         "link": "https://drive.google.com/file/d/1Y1d3vzekurmb82rxNLZGTSOlCa61Lcco/view?usp=sharing",
-        "description": "Segmented customers using clustering techniques on a toy car sales dataset from Kaggle. Key steps included extensive data cleaning, normalizing geographical variables, and applying K-means clustering. Identified five distinct customer segments and visualized clusters using PCA. Clusters were described based on metrics like order quantity, price per unit, demand, and purchase timing.\n\nCustomer Segmentation, Data Cleaning, Data Normalization, Clustering, Data Visualization",
+        "description": "Segmented customers using clustering techniques on a toy car sales dataset from Kaggle. Key steps included extensive data cleaning, normalizing geographical variables, and applying K-means clustering. Identified five distinct customer segments and visualized clusters using PCA. Clusters were described based on metrics like order quantity, price per unit, demand, and purchase timing.",
+        "keywords": "Data Visualization, Clustering, Data Cleaning, Data Normalization",
         "techStack": ["Python", "Pandas, matplotlib, Seaborn", "Scikit-learn: K-means Clustering, PCA, StandardScaler"],
         "desktopImage": "/wine.png"
     },
     {
         "name": "MOOC Dropout Prediction",
-        "description": "This is a sponsored project with Rapid Canvas. \n\nAnalyzed MOOC data to predict student dropout rates using user watch time, course completion status, rewatch percentage, and sittings per video. Key steps included EDA, and applying machine learning algorithms like XGBoost, Random Forest, AdaBoost, Gradient Boost, and K-means. Utilized tools like Tableau, Google Big Query, and Sklearn for data processing and model building, identifying patterns to improve student retention.\n\nSupervised Machine Learning, Cloud Computing, Data Warehousing, Data Modeling, Data Cleaning, Data Visualization", 
-         "techStack": ["Python, SQL: Google Big Query", "Tableau", "Pandas, NumPy", "Scikit-learn: XGBoost, Random Forest, AdaBoost, Gradient Boost"],
+        "description": "This is a sponsored project with Rapid Canvas. \n\nAnalyzed MOOC data to predict student dropout rates using user watch time, course completion status, rewatch percentage, and sittings per video. Key steps included EDA, and applying machine learning algorithms like XGBoost, Random Forest, AdaBoost, Gradient Boost, and K-means. Utilized tools like Tableau, Google Big Query, and Sklearn for data processing and model building, identifying patterns to improve student retention.", 
+        "keywords": "Supervised Machine Learning, Cloud Computing, Data Warehousing, Data Modeling, Data Cleaning, Data Visualization",
+        "techStack": ["Python, SQL: Google Big Query", "Tableau", "Pandas, NumPy", "Scikit-learn: XGBoost, Random Forest, AdaBoost, Gradient Boost"],
         "desktopImage": "/mooc.png"
     }
 ]

@@ -10,6 +10,18 @@ export default function ProjectSection({ data }) {
         ));
     };
 
+    const renderKeywords = (keywords) => {
+        if (!keywords || keywords.length === 0) return null;
+        return (
+            <>
+                <h3 className="text-xl font-bold">Keywords</h3>
+                {keywords.split('\n').map((paragraph, index) => (
+                    <p key={index} className="mb-2">{paragraph}</p>
+                ))}
+            </>
+        );
+    };
+
     const renderTechStack = (techStack) => {
         if (!techStack || techStack.length === 0) return null;
         return (
@@ -43,6 +55,7 @@ export default function ProjectSection({ data }) {
                                     </div>
                                 </div>
                                 <div>{renderDescription(project.description)}</div>
+                                {renderKeywords(project.keywords)}
                                 {renderTechStack(project.techStack)}
                             </div>
                         </div>
