@@ -40,7 +40,7 @@ export default async function Home() {
             <p className="mb-2">Currently, I am a Research Assistant at the Stephen M. Ross School of Business, where I lead data analytics efforts to explore the impact that corporate mission and values has on attracting candidates.</p>
             
             <h3 className='text-1xl font-bold mb-2'>Core Skills</h3>
-            <p className="mb-2">Core languages that I am fluent in include C++, Java, Python, SQL, and R. I am passionate about leveraging data to drive meaningful insights and business decisions, and I am eager to contribute to innovative projects and businesses to further develop my expertise in data science and engineering.</p>
+            <p className="mb-2">Core languages that I am fluent in include C++, Java, Python, SQL, and R. I am passionate about leveraging data to drive meaningful insights and business decisions, and I am eager to contribute to innovative projects to further develop my skills.</p>
             
             <h3 className='text-1xl font-bold mb-2'>Interests</h3>
             <p className='mb-4'>I am also an avid hiker and traveler. I&apos;ve been to 30 different US states and 10 national parks - my favorite hike is Angels Landing. I enjoy going to Michigan Football games as well - Go Blue!</p>
